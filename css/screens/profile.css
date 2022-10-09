@@ -1,0 +1,99 @@
+.profile {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+
+.profile-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.round {
+  border-radius: 50px;
+}
+.large {
+  width: 100px;
+  height: 100px;
+}
+.small {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-image {
+  position: relative;
+}
+.profile-image__add {
+  background-color: var(--blue-color);
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.profile-data__info {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+.profile-data__info__detail div:first-child {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile__edit__btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.profile__edit__btn div {
+  background-color: rgb(56, 56, 56);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.profile__edit__btn-left {
+  width: 90%;
+}
+
+.profile__edit__btn-right {
+  width: 8%;
+}
+
+.profile-story-bar .story {
+  margin-top: 20px;
+}
+
+.profile-story-bar img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.profile-story-bar .story-posted {
+  background: none;
+  border: 1px solid gray;
+}
+
+.profile-photo__bar {
+  display: flex;
+  margin: 20px 0;
+}
+
+.profile-photo__bar i {
+  width: 33%;
+  text-align: center;
+}
+
+.profile-photo .recommend {
+  margin-top: 0px;
+}

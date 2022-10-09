@@ -1,0 +1,19 @@
+@import "./reset.css";
+@import "./variable.css";
+/*Components*/
+@import "./components/status.css";
+@import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+/*Screens*/
+
+@import "./screens/home.css";
+@import "./screens/login.css";
+@import "./screens/search.css";
+@import "./screens/video.css";
+@import "./screens/shop.css";
+@import "./screens/profile.css";
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  color: white;
+}

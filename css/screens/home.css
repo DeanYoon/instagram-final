@@ -1,0 +1,161 @@
+#home-page {
+  height: 300vh;
+  margin-top: 110px;
+}
+
+.story-bar {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  padding-bottom: 15px;
+  border-bottom: var(--border);
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.story-posted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(45deg, yellow, red) border-box;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.not-posted {
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(45deg, black, black) border-box;
+}
+
+.story img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 4px solid transparent;
+}
+.story__id {
+  text-align: center;
+}
+
+.story__add {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  border: 5px solid black;
+  background-color: var(--blue-color);
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+}
+.round_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-right: 15px;
+}
+.post__header__id {
+  width: 80%;
+  font-size: 20px;
+}
+
+.post__img {
+  width: 100%;
+}
+
+.post__padding {
+  padding: 15px;
+}
+.post__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.post__bar > div {
+  width: 33%;
+}
+
+.post__bar__icons i {
+  margin-right: 15px;
+}
+.post__bar__img-now {
+  display: flex;
+  justify-content: center;
+}
+
+.post__bar__img-now__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  margin: 0 2px;
+  background-color: var(--color);
+}
+
+.post__bar__img-now__dot:nth-child(2) {
+  background-color: var(--blue-color);
+}
+.post__bar__book-mark {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post__likes {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.post__feed {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.post__feed__id {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#home-page .post a {
+  color: gray;
+}
+.post__comments--more {
+  font-size: 20px;
+}
+.post__comment {
+  font-size: 20px;
+}
+.post__comment__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.post__my-comment {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__my-comment input {
+  width: 85%;
+  font-size: 20px;
+}
+.post__date {
+  color: gray;
+}

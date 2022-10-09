@@ -1,0 +1,29 @@
+.shop-page {
+  display: flex;
+  justify-content: center;
+}
+.shop-bars {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shop-bars > div {
+  width: 85%;
+  height: 25px;
+  margin-bottom: 10px;
+  color: gray;
+}
+.search-bar:last-child {
+  justify-content: center;
+}
+.shop-recommend__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.shop-recommend__row img {
+  width: 49.9%;
+  height: 50vw;
+}

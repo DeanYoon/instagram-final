@@ -1,0 +1,32 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 5px 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  z-index: 99;
+  background-color: black;
+}
+
+.status-bar > div {
+  width: 33%;
+}
+.status-bar_time {
+  display: flex;
+  justify-content: center;
+}
+.status-bar_time span {
+  margin: 2px;
+}
+.status-bar_icons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.status-bar_icons i {
+  margin: 0 5px;
+}
